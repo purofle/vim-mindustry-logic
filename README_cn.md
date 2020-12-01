@@ -6,7 +6,7 @@
 
 <!-- vim-markdown-toc -->
 # vim-mindustry-logic
-[English][README.md] [中文](README_cn.md)  
+[English](README.md) [中文](README_cn.md)  
 一个能给Mindustry逻辑块代码高亮的vim插件
 ## 安装
 * [vim-plug](https://github.com/junegunn/vim-plug)  
