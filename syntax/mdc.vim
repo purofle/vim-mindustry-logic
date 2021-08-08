@@ -8,7 +8,7 @@ syn keyword mdcFlash drawflush printflush
 syn keyword mdcKeyword getlink control radar sensor
 syn keyword mdcStructure set
 syn match mdcNumber "\v\d*"
-syn match mdcComment "\v//.*$"
+syn match mdcComment "\v#.*$"
 
 hi def link mdcConditional Conditional
 hi def link mdcIO PreProc
