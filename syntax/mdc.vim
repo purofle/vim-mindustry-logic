@@ -14,7 +14,7 @@ syn match mdcNumber "\v<\d+\.\d+>"
 syn keyword mdcBool true false
 syn keyword mdcTodos TODO XXX FIXME NOTE contained
 syn match mdcComment "\v#.*$" contains=mdcTodos
-syn match masmAt "@[a-zA-Z0-9]*"
+syn match mdcAt "@[a-zA-Z0-9]*"
 
 syntax region mdcString start=/"/ end=/"/ oneline contains=mdcInterpolatedWrapper
 syntax region mdcInterpolatedWrapper start="\v\\\(\s*" end="\v\s*\)" contained containedin=mdcString contains=mdcInterpolatedString
@@ -28,9 +28,9 @@ hi def link mdcFlash Special
 hi def link mdcKeyword keyword
 hi def link mdcStructure Macro
 hi def link mdcTodos Todo
-hi def link masmAt Statement
+hi def link mdcAt Statement
 hi def link mdcComment Comment
-hi def link amndSubcommands vimSynType
+hi def link amndSubcommands Operator
 hi def link mdcNumber Number
 hi def link mdcString String
 hi def link mdcBool Boolean
