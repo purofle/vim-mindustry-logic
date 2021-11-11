@@ -10,6 +10,7 @@ syn keyword mdcStructure set
 syn keyword mdcOperator op
 syn match mdcNumber "\v\d*"
 syn match mdcComment "\v#.*$"
+syn match masmAt "@[a-zA-Z0-9]*"
 
 hi def link mdcConditional Conditional
 hi def link mdcOperator Operator
@@ -18,6 +19,7 @@ hi def link mdcFlash Special
 hi def link mdcKeyword keyword
 hi def link mdcStructure Macro
 hi def link mdcNumber String
+hi def link masmAt Statement
 hi def link mdcComment Comment
 
 let b:current_syntax = 'mdc'
