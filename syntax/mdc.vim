@@ -13,6 +13,11 @@ syn match mdcNumber "\v<\d+\.\d+>"
 syn keyword mdcBool true false
 syn match mdcComment "\v#.*$"
 
+syntax region mdcString start=/"/ end=/"/ oneline contains=mdcInterpolatedWrapper
+syntax region mdcInterpolatedWrapper start="\v\\\(\s*" end="\v\s*\)" contained containedin=mdcString contains=mdcInterpolatedString
+syntax match mdcInterpolatedString "\v\w+(\(\))?" contained containedin=mdcInterpolatedWrapper
+
+
 hi def link mdcConditional Conditional
 hi def link mdcOperator Operator
 hi def link mdcIO PreProc
