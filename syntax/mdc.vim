@@ -8,7 +8,9 @@ syn keyword mdcFlash drawflush printflush
 syn keyword mdcKeyword getlink control radar sensor ubind ucontrol uradar ulocate noop
 syn keyword mdcStructure set
 syn keyword mdcOperator op
-syn match mdcNumber "\v\d*"
+syn match mdcNumber "\v<\d+>"
+syn match mdcNumber "\v<\d+\.\d+>"
+syn keyword mdcBool true false
 syn match mdcComment "\v#.*$"
 
 hi def link mdcConditional Conditional
