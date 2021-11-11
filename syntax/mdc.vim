@@ -24,7 +24,11 @@ hi def link mdcIO PreProc
 hi def link mdcFlash Special
 hi def link mdcKeyword keyword
 hi def link mdcStructure Macro
-hi def link mdcNumber String
+hi def link mdcNumber Number
+hi def link mdcString String
+hi def link mdcBool Boolean
 hi def link mdcComment Comment
+highlight default link mdcInterpolatedWrapper Delimiter
+
 
 let b:current_syntax = 'mdc'
