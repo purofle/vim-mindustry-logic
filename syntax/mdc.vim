@@ -30,7 +30,7 @@ hi def link mdcStructure Macro
 hi def link mdcTodos Todo
 hi def link mdcAt Statement
 hi def link mdcComment Comment
-hi def link amndSubcommands Operator
+hi def link mdcSubCommand Operator
 hi def link mdcNumber Number
 hi def link mdcString String
 hi def link mdcBool Boolean
