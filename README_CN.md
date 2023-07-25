@@ -1,10 +1,3 @@
-
-<!-- vim-markdown-toc GFM -->
-
-* [vim-mindustry-logic](#vim-mindustry-logic)
-	* [安装](#安装)
-
-<!-- vim-markdown-toc -->
 # vim-mindustry-logic
 [English](README.md) [中文](README_cn.md)  
 一个能给Mindustry逻辑块代码高亮的vim插件
