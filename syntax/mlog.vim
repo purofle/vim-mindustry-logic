@@ -13,7 +13,7 @@ syn match mlogNumber "\v<\d+>"
 syn match mlogNumber "\v<\d+\.\d+>"
 syn keyword mlogBool true false
 syn keyword mlogTodos TODO XXX FIXME NOTE contained
-syn match mlogComment "\v#.*$" contains=mdcTodos
+syn match mlogComment "\v#.*$" contains=mlogTodos
 syn match mlogAt "@[a-zA-Z0-9]*"
 
 syntax region mlogString start=/"/ end=/"/ oneline contains=mlogInterpolatedWrapper
