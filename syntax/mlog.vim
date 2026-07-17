@@ -5,7 +5,7 @@ endif
 syn keyword mlogConditional jump end
 syn keyword mlogIO read write draw print
 syn keyword mlogFlash drawflush printflush
-syn keyword mlogKeyword getlink control radar sensor ubind ucontrol uradar ulocate noop
+syn keyword mlogKeyword getlink control radar sensor ubind ucontrol uradar ulocate noop wait
 syn keyword mlogSubCommand ore building spawn damaged core storage generator turret factory repair rally battery resupply reactor idle stop move approach boost pathfind target targetp itemDrop itemTake payDrop payTake mine flag build getBlock within always add sub mul div idiv mod pow equal notEqual land lessThan lessThanEq greaterThan greaterThanEq strictEqual shl shr or and xor not max min angle len noise abs log log10 sin cos tan floor ceil sqrt rand distance health shield armor maxHealth any enemy ally player attacker flying boss ground enabled shoot shootp configure color clear color stroke line rect lineRect poly linePoly triangle image
 syn keyword mlogStructure set
 syn keyword mlogOperator op
